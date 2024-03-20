@@ -26,7 +26,7 @@ CUDA_VISIBLE_DEVICES=0 python src/ft_chatglm_ptuning/main.py \
     --learning_rate $LR \
     --pre_seq_len $PRE_SEQ_LEN \
 
-#CUDA_VISIBLE_DEVICES=0: 指定使用第一块GPU进行训练。
+#CUDA_VISIBLE_DEVICES=0: 测试合并。
 #--do_train: 表示进行训练。
 #--train_file $your_data_path/train.json: 指定训练数据集的路径，你需要替换$your_data_path为你的数据文件所在的路径。
 #--validation_file $your_data_path/dev.json: 指定验证数据集的路径，同样需要替换$your_data_path。
