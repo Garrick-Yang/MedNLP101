@@ -1,13 +1,9 @@
-# 代码结构
-cblue_baselines:原始cblue的代码  
-- 将三个原始任务文件合并为一个，放在run_cblue.py中， 后边脚本(.sh)中的文件也相应改为run_cblue.py
+·tran_data.ipynb 修改数据集的代码，包含CHIP-CDN、CHIP-STS、CHIP-CTC和KUAKE-QTR
 
-data：模型数据，CBLUE，PromptCBLUE样例数据集，改造数据集样式  
-- output: cblue的输出，原始代码是输出到了这里，先不改吧。
+·CHIP-CDN 修改完成的数据集，包含训练集train，验证集dev，测试集test
 
-output：输出相关内容文件放在这里  
+·CHIP-STS 修改完成的数据集，包含训练集train，验证集dev，测试集test
 
-peft：原始PromptCBLUE代码  
+·CHIP-CTC 修改完成的数据集，包含训练集train，验证集dev，测试集test
 
-src：微调代码和脚本文件  
-- scripts所有脚本文件，cblue和promptcblue  
+·KUAKE-QTR 修改完成的数据集，包含训练集train，验证集dev，测试集test
